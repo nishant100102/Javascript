@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Press the key and see the magic</p>
+    <div id="key"></div>
+</body>
+<script>
+    const key=document.getElementById("key")
+
+    window.addEventListener('keydown',(e)=>{
+        key.innerHTML=e.key
+    })
+</script>
+</html>
